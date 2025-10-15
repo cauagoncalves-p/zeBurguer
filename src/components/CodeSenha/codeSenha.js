@@ -21,12 +21,13 @@ export default props => {
           />
         </View>
 
-        <View>
-          <Text style={{color:"#bdbab2"}}>Informe seu e-mail</Text>
-          <TextInput style={{backgroundColor:"#f6f7f0"}} />
-          <View
-            style={{ borderBottomColor: '#ccc', borderWidth: 1, width: '100%' }}
-          />
+        <View style={{flexDirection:"row", gap:10, justifyContent:"center"}}>
+          <TextInput maxLength={1} style={{textAlign:"center",backgroundColor:"#f6f7f0", paddingHorizontal:0, width:"15%", borderColor:"#000", borderWidth:1, borderRadius:6, fontSize:40}}/>
+          <TextInput maxLength={1} style={{textAlign:"center",backgroundColor:"#f6f7f0", paddingHorizontal:0, width:"15%", borderColor:"#000", borderWidth:1, borderRadius:6, fontSize:40}}/>
+          <TextInput maxLength={1} style={{textAlign:"center",backgroundColor:"#f6f7f0", paddingHorizontal:0, width:"15%", borderColor:"#000", borderWidth:1, borderRadius:6, fontSize:40}}/>
+          <TextInput maxLength={1} style={{textAlign:"center",backgroundColor:"#f6f7f0", paddingHorizontal:0, width:"15%", borderColor:"#000", borderWidth:1, borderRadius:6, fontSize:40}}/>
+          <TextInput maxLength={1} style={{textAlign:"center",backgroundColor:"#f6f7f0", paddingHorizontal:0, width:"15%", borderColor:"#000", borderWidth:1, borderRadius:6, fontSize:40}}/>
+          <TextInput maxLength={1} style={{textAlign:"center",backgroundColor:"#f6f7f0", paddingHorizontal:0, width:"15%", borderColor:"#000", borderWidth:1, borderRadius:6, fontSize:40}}/>
         </View>
         <View>
             <TouchableOpacity style={styles.buttonContinuar}>

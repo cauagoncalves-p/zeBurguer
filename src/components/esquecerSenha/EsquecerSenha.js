@@ -9,8 +9,7 @@ import { TextInput } from 'react-native-paper';
 import { useNavigation } from '@react-navigation/native';
 import { ScrollView } from "react-native";
 export default props => {
-  const navigation = useNavigation()
-  const [Password, setPassword] = useState(false);
+  const navigation = useNavigation();
   return (
     <View style={styles.container}>
       <View style={styles.viewMain}>
