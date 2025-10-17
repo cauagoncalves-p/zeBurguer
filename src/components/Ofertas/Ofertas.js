@@ -18,7 +18,7 @@ export default () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    gap:10
+    backgroundColor: '#f6f7f0',
   },
 
 });

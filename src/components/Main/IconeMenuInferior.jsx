@@ -13,7 +13,7 @@ const IconeMenuInferior = () => {
         paddingHorizontal: 15,
         zIndex: 1,
         position: 'absolute',
-        bottom: 0,
+        bottom: 10,
         width: '100%',
       }}>
       <Icone imagem={Home} texto={"Home"} rota={'MenuPrincipal'}/>
