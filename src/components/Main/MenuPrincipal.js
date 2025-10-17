@@ -1,6 +1,4 @@
 import { Image, StyleSheet, Text, View } from "react-native";
-import Card from "./Card";
-import imgLanche from "../../assets/lanche.jpg"
 import IconeMenuInferior from "./IconeMenuInferior";
 import Cards from "./Cards";
 export default props => {

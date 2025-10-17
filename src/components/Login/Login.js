@@ -41,7 +41,7 @@ export default props => {
         <View style={styles.viewButton}>
           <View>
             <TouchableOpacity style={styles.buttonEntrar}>
-              <Text style={styles.buttonEntrarTxT}>Entrar</Text>
+              <Text style={styles.buttonEntrarTxT} onPress={() => navigation.navigate('MenuPrincipal')}>Entrar</Text>
             </TouchableOpacity>
           </View>
 

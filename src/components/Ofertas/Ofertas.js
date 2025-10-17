@@ -1,0 +1,24 @@
+import { View, StyleSheet} from 'react-native';
+import CardsFavoritos from './CardsFavoritos';
+import CardsCombos from './CardsCombos';
+import CardsMaisPedidos from './CardsMaisPedidos';
+import IconeMenuInferior from "../Main/IconeMenuInferior";
+
+export default () => {
+  return (
+    <View style={styles.container}>
+      <CardsFavoritos/>
+      <CardsCombos/>
+      <CardsMaisPedidos/>
+      <IconeMenuInferior/>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    gap:10
+  },
+
+});
