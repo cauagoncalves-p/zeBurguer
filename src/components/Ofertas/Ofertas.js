@@ -7,10 +7,11 @@ import IconeMenuInferior from "../Main/IconeMenuInferior";
 export default () => {
   return (
     <View style={styles.container}>
-      <CardsFavoritos/>
-      <CardsCombos/>
-      <CardsMaisPedidos/>
-      <IconeMenuInferior/>
+      <View style={{gap:30}}>
+        <CardsFavoritos/>
+        <CardsCombos/>
+        <CardsMaisPedidos/>
+      </View>
     </View>
   );
 };

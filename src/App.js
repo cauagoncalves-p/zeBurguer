@@ -10,20 +10,14 @@ import EsquecerSenha from "./components/esquecerSenha/EsquecerSenha";
 import codeSenha from "./components/CodeSenha/codeSenha";
 import MenuPrincipal from "./components/Main/MenuPrincipal";
 import Ofertas from "./components/Ofertas/Ofertas";
+import Index from "./components/BottomNave/Index";
+import NavDrawer from "./components/DrawerNav/Index"
 const Stack = createNativeStackNavigator();
 export default props => {
    return (
      <SafeAreaView style={styles.container}>
         <NavigationContainer>
-            <Stack.Navigator>
-                <Stack.Screen name="Ofertas" component={Ofertas}></Stack.Screen>
-                <Stack.Screen name="Login" component={Login}></Stack.Screen>
-                <Stack.Screen name="MenuPrincipal" component={MenuPrincipal} options={{title:"Main"}}></Stack.Screen>
-                <Stack.Screen name="EsquecerSenha" component={EsquecerSenha} options={{title:"Forgot Password"}}></Stack.Screen>
-                <Stack.Screen name="codeSenha" component={codeSenha} options={{title:"Code Password"}}></Stack.Screen>
-                <Stack.Screen name="Cadastrase" component={Cadastrar} options={{title:"Register"}}></Stack.Screen>
-                <Stack.Screen name="Splash" component={Splash}></Stack.Screen>
-            </Stack.Navigator>
+            <NavDrawer/>
         </NavigationContainer>
     </SafeAreaView>
    )

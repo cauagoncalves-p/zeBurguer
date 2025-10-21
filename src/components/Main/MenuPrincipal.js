@@ -12,7 +12,6 @@ export default props => {
             </View>
         </View>
         <Cards/>
-        <IconeMenuInferior/> 
     </View>
    )
 }

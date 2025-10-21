@@ -36,7 +36,7 @@ export default props => {
           />
         </View>
 
-        <Text style={styles.txtEsqueciSenha}>ESQUECI A SENHA</Text>
+        <Text style={styles.txtEsqueciSenha} onPress={() => navigation.navigate('EsquecerSenha')}>ESQUECI A SENHA</Text>
 
         <View style={styles.viewButton}>
           <View>
