@@ -12,12 +12,14 @@ import MenuPrincipal from "./components/Main/MenuPrincipal";
 import Ofertas from "./components/Ofertas/Ofertas";
 import Index from "./components/BottomNave/Index";
 import NavDrawer from "./components/DrawerNav/Index"
+import CustomDrawer from "./components/CustomDrawer";
+import AppDrawerNav from "./navegacao/AppDrawerNav";
 const Stack = createNativeStackNavigator();
 export default props => {
    return (
      <SafeAreaView style={styles.container}>
         <NavigationContainer>
-            <NavDrawer/>
+            <AppDrawerNav/>
         </NavigationContainer>
     </SafeAreaView>
    )
