@@ -13,7 +13,7 @@ const Drawer = createDrawerNavigator();
 
 export default props => {
     return(
-        <Drawer.Navigator >
+        <Drawer.Navigator drawerContent={props => <CustomDrawer/>}>
             <Drawer.Screen name="Login" component={Login}/>
             <Drawer.Screen name="Cadastro" component={Cadastrar}/>
             <Drawer.Screen name="Esqueceu senha?" component={EsquecerSenha}/>
